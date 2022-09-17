@@ -8,6 +8,15 @@ module.exports = {
     minHeight: {
       '70': '70px',
     },
+    
+    colors: {
+      'primary': 'rgb(255, 81, 81)',
+      'grey' :'rgb(65, 81, 97)',
+      'bordercolor' :'rgba(0, 0, 0, 0.07)',
+    },
+    screens:{
+      'middle': '920px',
+    },
     extend: {},
   },
   plugins: [],
