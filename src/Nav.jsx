@@ -1,5 +1,5 @@
 import React from 'react'
-import printImage from './print.svg'
+import printImage from './assets/print.svg'
 import { RiShoppingBagLine } from 'react-icons/ri';
 
 function Nav() {
