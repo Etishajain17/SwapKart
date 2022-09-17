@@ -5,6 +5,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    minHeight: {
+      '70': '70px',
+    },
     extend: {},
   },
   plugins: [],
