@@ -4,7 +4,7 @@ import { RiShoppingBagLine, RiArrowDropDownLine } from 'react-icons/ri';
 
 function Nav() {
     return (
-        <div className='box-border border-b py-3 border-bordercolor select-none text-xs '>
+        <div className='box-border border-b py-3 border-grey-light select-none text-xs '>
             <div className='box-border px-5 mx-auto min-h-70 flex items-center max-w-6xl justify-between '>
                 <div>
                     <img src={printImage} />
@@ -29,15 +29,15 @@ function Nav() {
                                     <span>Account</span>
                                     <RiArrowDropDownLine className="text-2xl" />
                                 </button>
-                                <nav tabindex="0" className=" border border-bordercolor bg-white invisible  rounded w-56 absolute left-0 top-full transition-all opacity-0 group-hover:visible  group-hover:opacity-100 mt-5 shadow shadow-bordercolor  group-hover:translate-y-1 ">
+                                <nav tabindex="0" className=" border border-grey-light bg-white invisible  rounded w-56 absolute left-0 top-full transition-all opacity-0 group-hover:visible  group-hover:opacity-100 mt-5 shadow shadow-bordercolor  group-hover:translate-y-1 ">
                                     <ul className="py-1">
                                         <li className='mb-1'>
-                                            <a href="#" className="block px-4 py-2 hover:bg-gray-100 uppercase hover:text-primary">
+                                            <a href="#" className="block px-4 py-2 hover:bg-grey-light uppercase hover:text-primary">
                                                 my account
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" className="block px-4 py-2 hover:bg-gray-100 uppercase hover:text-primary">
+                                            <a href="#" className="block px-4 py-2 hover:bg-grey-light uppercase hover:text-primary">
                                                 cart
                                             </a>
                                         </li>

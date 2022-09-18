@@ -13,8 +13,10 @@ module.exports = {
       
       colors: {
         'primary': 'rgb(255, 81, 81)',
-        'grey' :'rgb(65, 81, 97)',
-        'bordercolor' :'rgba(0, 0, 0, 0.07)',
+        'grey' : {
+          dark:'rgb(65, 81, 97)',
+          light:'rgba(0, 0, 0, 0.07)'
+        },
          white: colors.white,
          black : colors.black,
       },
